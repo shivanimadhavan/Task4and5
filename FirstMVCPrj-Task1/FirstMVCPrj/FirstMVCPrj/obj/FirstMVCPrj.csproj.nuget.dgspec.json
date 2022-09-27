@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ASP.NET Training\\FirstMVCPrj-Task1\\FirstMVCPrj\\FirstMVCPrj\\FirstMVCPrj.csproj": {}
+  },
+  "projects": {
+    "C:\\ASP.NET Training\\FirstMVCPrj-Task1\\FirstMVCPrj\\FirstMVCPrj\\FirstMVCPrj.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ASP.NET Training\\FirstMVCPrj-Task1\\FirstMVCPrj\\FirstMVCPrj\\FirstMVCPrj.csproj",
+        "projectName": "FirstMVCPrj",
+        "projectPath": "C:\\ASP.NET Training\\FirstMVCPrj-Task1\\FirstMVCPrj\\FirstMVCPrj\\FirstMVCPrj.csproj",
+        "packagesPath": "C:\\Users\\ShivaniM\\.nuget\\packages\\",
+        "outputPath": "C:\\ASP.NET Training\\FirstMVCPrj-Task1\\FirstMVCPrj\\FirstMVCPrj\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ShivaniM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/softuravault/KomtraxBA/_packaging/komtraxfeed/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/softuravault/eead0206-6959-4e49-b193-074e4872ef5d/_packaging/Softura/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
